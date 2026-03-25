@@ -1,0 +1,251 @@
+{
+  "name": "PrestaShopAutomationProcess",
+  "projectId": "70f4e76f-8020-4b29-9b09-0e8b4a9cf34b",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "atuipath_utilities": "[1.0.6]",
+    "FridayPPTAutomation": "[1.0.17]",
+    "MultiBrowserLib": "[1.0.8]",
+    "UiPath.GSuite.Activities": "[3.7.10]",
+    "UiPath.System.Activities": "[26.2.1]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[26.1.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.185.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8851f546-1d64-4dd1-85bc-3dced348895c",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e6a5985e-e7a1-4c5c-9f7f-47ebdd406cc8",
+        "testCaseType": "TestCase",
+        "fileName": "TestTemplate.xaml"
+      },
+      {
+        "templateType": "TestCase",
+        "fileName": ".templates\\TestTemplate.xaml"
+      },
+      {
+        "templateType": "TestCase",
+        "fileName": ".templates\\TestTemplateTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "85f47f77-6310-425f-b51f-dd98abfb1c4c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-01-Register.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1647300a-4e98-4c8e-9363-d4e8820b3c14",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-02-Invalid_Registration.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2dd237da-0db7-47ba-8ea3-827cc17f33b2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-03-CheckSignIn.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d05a7b8f-4eba-4ab4-b472-9b697b14376a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-04-Subscribe.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d1a7aff1-2be9-4830-8bf5-6a2448c1750f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-06-SearchItem.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "af9e9143-c5e3-4244-a3da-b7c756000e81",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-05-Invalid_Subscribe.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "be8c1cb7-bb1e-4787-9672-0037928e7da6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-07-SelectItem.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3bc67ae0-6c55-4cf1-beaa-8d51decf39ff",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-08-SelectItem2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f42dd766-d362-42ad-8f20-18a8de167927",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-09-AddToCart.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "abd24824-180f-4385-b7b4-4c838d9e2b3d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-10-Checkout.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5180514e-b04e-4c35-9ca0-987136f3c308",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-11-Billing.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "996eca71-eeb2-45b6-a30e-2a700fddd43a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-12-Payment.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b2842a3-5ac1-429e-9930-dcc7ab17a9ca",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-13-CustomerSupport.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c07075c9-ee3a-4962-9db1-4e2351bebe6c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-14-ProfileOption.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ba973e1a-b0c0-45f6-8d03-573a1766798c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-15-ProfileAddresses.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7464a244-234e-4dbc-8eaf-cd36281a96fe",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-16-ProfileOrderHistory.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "044c1459-c36c-4089-be7c-ae5480f2358d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-17-Profile_CreditSlips.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "994e2a88-73a1-4c42-bf95-58f3ae87bb6c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-18-Profile_MY WISHLIST.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3b357b8a-80bc-419b-aec5-04135231eb32",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-19-Profile_GDPR.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6a7f2fef-48f9-4908-896a-d02cfa825fad",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-20-Profile_MyAlerts.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "059296fb-b8bd-4c31-99d4-f9fca9be505e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-24-Complete-Flow.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "17790088-7f1e-46d3-942c-c715e2fcc3cc",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-25-MultiBrowser.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "312ef26c-c412-42df-bbb0-c5e4cc074f77",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-23-LanguageChange2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c5e2561b-d1bf-4e09-a5b4-bcd319a6755e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-22-LanguageChange.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a895a5b7-7f79-4b2a-baa9-4cb63faeff5e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC-21-SignOut.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
