@@ -330,7 +330,7 @@
             </ra:StartSuite.suiteId>
           </ra:StartSuite>
           <ui:Comment sap:VirtualizedContainerService.HintSize="515,93" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Enter your activities here&#xA;" />
-          <ra:StartTest ContinueOnError="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="515,122" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="High" TagName="ProfileOption" TestDescription="ProfileOption" TestName="ProfileOption">
+          <ra:StartTest ContinueOnError="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="515,122" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Medium" TagName="ProfileOption" TestDescription="ProfileOption" TestName="ProfileOption">
             <ra:StartTest.ReportId>
               <InArgument x:TypeArguments="x:Int32">
                 <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">reportIdLocal</CSharpValue>

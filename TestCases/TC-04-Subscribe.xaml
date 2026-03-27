@@ -197,7 +197,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="939,5569" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="939,6008" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ReportName" />
       <Variable x:TypeArguments="si:DirectoryInfo" Name="dirInfo" />
@@ -213,14 +213,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="551,5546" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="551,5985" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="549,4909" sap2010:WorkflowViewState.IdRef="Sequence_11">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="549,5348" sap2010:WorkflowViewState.IdRef="Sequence_11">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="variable1" />
           </Sequence.Variables>
@@ -329,7 +329,7 @@
             </ra:StartSuite.suiteId>
           </ra:StartSuite>
           <ui:Comment sap:VirtualizedContainerService.HintSize="515,93" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Enter your activities here&#xA;" />
-          <ra:StartTest ContinueOnError="{x:Null}" TestDescription="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="515,122" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Medium" TagName="Subscribe Mail" TestName="Subscribe Mail">
+          <ra:StartTest ContinueOnError="{x:Null}" TestDescription="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="515,122" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TagName="Subscribe Mail" TestName="Subscribe Mail">
             <ra:StartTest.ReportId>
               <InArgument x:TypeArguments="x:Int32">
                 <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">reportIdLocal</CSharpValue>
@@ -402,7 +402,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <f:Register sap:VirtualizedContainerService.HintSize="416,430" sap2010:WorkflowViewState.IdRef="Register_2" LastNameRow="1" NameRow="1" UserRow="6">
+                <f:Register sap:VirtualizedContainerService.HintSize="416,430" sap2010:WorkflowViewState.IdRef="Register_2" LastNameRow="1" NameRow="1" UserRow="5">
                   <f:Register.ExcelPath>
                     <InArgument x:TypeArguments="x:String">
                       <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">@"C:\Users\Vishu\Documents\UiPath\PrestaShopAutomation\FridayPPT_PrestaShop\Book 6.xlsx"</CSharpValue>
@@ -427,6 +427,28 @@
               </Sequence>
             </If.Else>
           </If>
+          <f:Register sap:VirtualizedContainerService.HintSize="515,439" sap2010:WorkflowViewState.IdRef="Register_3" LastNameRow="0" NameRow="0" UserRow="5">
+            <f:Register.ExcelPath>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_87">@"C:\Users\Vishu\Documents\UiPath\PrestaShopAutomation\FridayPPT_PrestaShop\Book 6.xlsx"</CSharpValue>
+              </InArgument>
+            </f:Register.ExcelPath>
+            <f:Register.ReportID>
+              <InArgument x:TypeArguments="x:Int32">
+                <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_86">reportIdLocal</CSharpValue>
+              </InArgument>
+            </f:Register.ReportID>
+            <f:Register.SuiteID>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_85">strSuiteId</CSharpValue>
+              </InArgument>
+            </f:Register.SuiteID>
+            <f:Register.TestID>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_84">TestID</CSharpValue>
+              </InArgument>
+            </f:Register.TestID>
+          </f:Register>
           <f:Subscribe sap:VirtualizedContainerService.HintSize="515,335" sap2010:WorkflowViewState.IdRef="Subscribe_1" SubscribeMailRow="6">
             <f:Subscribe.ExcelPath>
               <InArgument x:TypeArguments="x:String">

@@ -342,7 +342,7 @@
               </OutArgument>
             </ra:StartTest.testId>
           </ra:StartTest>
-          <f:Register sap:VirtualizedContainerService.HintSize="515,439" sap2010:WorkflowViewState.IdRef="Register_1" LastNameRow="0" NameRow="0" UserRow="5">
+          <f:Register sap:VirtualizedContainerService.HintSize="515,439" sap2010:WorkflowViewState.IdRef="Register_1" LastNameRow="0" NameRow="0" UserRow="2">
             <f:Register.ExcelPath>
               <InArgument x:TypeArguments="x:String">
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">@"C:\Users\Vishu\Documents\UiPath\PrestaShopAutomation\FridayPPT_PrestaShop\Book 6.xlsx"</CSharpValue>

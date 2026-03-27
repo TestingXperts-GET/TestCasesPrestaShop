@@ -329,7 +329,7 @@
             </ra:StartSuite.suiteId>
           </ra:StartSuite>
           <ui:Comment sap:VirtualizedContainerService.HintSize="515,93" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Enter your activities here&#xA;" />
-          <ra:StartTest ContinueOnError="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="515,122" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Medium" TagName="Invalid Subscribe" TestDescription="Invalid Subscribe" TestName="Invalid Subscribe">
+          <ra:StartTest ContinueOnError="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="515,122" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TagName="Invalid Subscribe" TestDescription="Invalid Subscribe" TestName="Invalid Subscribe">
             <ra:StartTest.ReportId>
               <InArgument x:TypeArguments="x:Int32">
                 <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">reportIdLocal</CSharpValue>
@@ -402,7 +402,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <f:Register sap:VirtualizedContainerService.HintSize="416,430" sap2010:WorkflowViewState.IdRef="Register_2" LastNameRow="1" NameRow="1" UserRow="1">
+                <f:Register sap:VirtualizedContainerService.HintSize="416,430" sap2010:WorkflowViewState.IdRef="Register_2" LastNameRow="1" NameRow="1" UserRow="2">
                   <f:Register.ExcelPath>
                     <InArgument x:TypeArguments="x:String">
                       <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">@"C:\Users\Vishu\Documents\UiPath\PrestaShopAutomation\FridayPPT_PrestaShop\Book 6.xlsx"</CSharpValue>

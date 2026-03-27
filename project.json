@@ -5,9 +5,11 @@
   "main": "Main.xaml",
   "dependencies": {
     "atuipath_utilities": "[1.0.6]",
-    "FridayPPTAutomation": "[1.0.17]",
+    "CustomTestReporter": "[1.0.7]",
+    "FridayPPTAutomation": "[1.0.30]",
     "MultiBrowserLib": "[1.0.8]",
     "UiPath.GSuite.Activities": "[3.7.10]",
+    "UiPath.IntegrationService.Activities": "[1.24.0]",
     "UiPath.System.Activities": "[26.2.1]",
     "UiPath.Testing.Activities": "[25.10.0]",
     "UiPath.UIAutomation.Activities": "[26.1.0-preview]"
